@@ -4,7 +4,7 @@ from PIL import Image
 from joblib import Parallel, delayed
 
 #root_dir="C:\\Data"
-root_dir = "/content/drive/MyDrive/Data"
+root_dir = "/content/drive/MyDrive/Data/"
 
 class Repeat(Dataset):
     def __init__(self, org_dataset, new_length):
