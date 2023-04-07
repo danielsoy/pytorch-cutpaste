@@ -3,6 +3,9 @@ from pathlib import Path
 from PIL import Image
 from joblib import Parallel, delayed
 
+#root_dir="C:\\Data"
+root_dir = "/content/drive/MyDrive/Data"
+
 class Repeat(Dataset):
     def __init__(self, org_dataset, new_length):
         self.org_dataset = org_dataset
