@@ -37,7 +37,9 @@ tensorboard --logdir logdirs
 
 ## Run Evaluation
 ```
-python eval.py --model_dir models --head_layer 2
+## python eval.py --model_dir models --head_layer 2 
+
+python eval.py --model_dir models --head_layer 1
 ```
 This will create a new directory `Eval` with plots for each defect type/model.
 
