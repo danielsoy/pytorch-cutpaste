@@ -2,9 +2,9 @@ from torch.utils.data import Dataset
 from pathlib import Path
 from PIL import Image
 from joblib import Parallel, delayed
+import cv2
+import matplotlib.pyplot as plt
 
-
-#root_dir="C:\\Data"
 root_dir =   "/content/drive/MyDrive/Data"
 img  = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG")
 cv2.imwrite(root_dir + "/hazelnut/train/good/pudrete1!.PNG", img)
