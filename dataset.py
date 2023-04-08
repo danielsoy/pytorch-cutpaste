@@ -7,16 +7,11 @@ from joblib import Parallel, delayed
 #root_dir="C:\\Data"
 root_dir =   "/content/drive/MyDrive/Data"
 img  = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG")
-root_dir = "/content/pytorch-cutpaste/Data"
+cv2.imwrite(root_dir + "/hazelnut/train/good/pudrete1!.PNG", img)
+
+root_dir1 = "/content/pytorch-cutpaste/Data"
 img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
-
-
-root_dir = "/content/pytorch-cutpaste/Data"
-img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
-img = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG" )
-
-img1= cv2.imread(root_dir1 + "/hazelnut/train/good/aume0.PNG" )
-cv2.imwrite(root_dir + "/hazelnut/train/good/pudrete!.PNG", img1)
+cv2.imwrite(root_dir1 + "/hazelnut/train/good/pudrete2!.PNG", img1)
 
 
 
