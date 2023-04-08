@@ -7,11 +7,11 @@ import matplotlib.pyplot as plt
 
 root_dir =   "/content/drive/MyDrive/Data"
 img  = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG")
-cv2.imwrite(root_dir + "/hazelnut/train/good/pudrete1!.PNG", img)
+cv2.imwrite(root_dir + "/hazelnut/train/good/saveit!.PNG", img)
 
 root_dir1 = "/content/pytorch-cutpaste/Data"
 img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
-cv2.imwrite(root_dir1 + "/hazelnut/train/good/pudrete2!.PNG", img1)
+cv2.imwrite(root_dir1 + "/hazelnut/train/good/saveit1!.PNG", img1)
 
 
 
