@@ -214,7 +214,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     print(args)
 
-    all_types = ["hazelnut"]
+    all_types = ['hazelnut']
 
    # all_types = ['bottle',
    #         'cable'   
