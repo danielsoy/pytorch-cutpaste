@@ -2,8 +2,10 @@ from torch.utils.data import Dataset
 from pathlib import Path
 from PIL import Image
 from joblib import Parallel, delayed
+###################################################################
 import cv2
-import matplotlib.pyplot as plt
+
+# root_dir="C:\\Data"  # path to Data in my PC 
 
 root_dir =   "/content/drive/MyDrive/Data"
 img  = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG")
@@ -12,6 +14,7 @@ cv2.imwrite(root_dir + "/hazelnut/train/good/saveit!.PNG", img)
 root_dir1 = "/content/pytorch-cutpaste/Data"
 img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
 cv2.imwrite(root_dir1 + "/hazelnut/train/good/saveit1!.PNG", img1)
+####################################################################
 
 
 
