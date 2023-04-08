@@ -14,11 +14,10 @@ img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
 root_dir = "/content/pytorch-cutpaste/Data"
 img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
 img = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG" )
-img1= cv2.imread(root_dir1 + "/hazelnut/train/good/aume0.PNG" )
 
-#plt.imshow(img)  # tiran error could not connecte to dislplay.
-#cv2.imshow("img1",img1)
-#cv2.waitKey(0)
+img1= cv2.imread(root_dir1 + "/hazelnut/train/good/aume0.PNG" )
+cv2.imwrite(root_dir + "/hazelnut/train/good/pudrete!.PNG", img1)
+
 
 
 class Repeat(Dataset):
