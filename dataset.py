@@ -4,7 +4,11 @@ from PIL import Image
 from joblib import Parallel, delayed
 
 #root_dir="C:\\Data"
-root_dir = "/content/pytorch-cutpaste/Data/"
+root_dir=  "/content/drive/MyDrive/Data"
+root_dir1 = "/content/pytorch-cutpaste/Data"
+
+img = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG" )
+img1= cv2.imread(root_dir1 + "/hazelnut/train/good/aume0.PNG" )
 
 class Repeat(Dataset):
     def __init__(self, org_dataset, new_length):
