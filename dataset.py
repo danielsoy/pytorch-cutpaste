@@ -16,6 +16,11 @@ img1 = cv2.imread(root_dir + "/hazelnut/train/good/aume1.PNG")
 img = cv2.imread(root_dir + "/hazelnut/train/good/aume0.PNG" )
 img1= cv2.imread(root_dir1 + "/hazelnut/train/good/aume0.PNG" )
 
+#plt.imshow(img)  # tiran error could not connecte to dislplay.
+#cv2.imshow("img1",img1)
+#cv2.waitKey(0)
+
+
 class Repeat(Dataset):
     def __init__(self, org_dataset, new_length):
         self.org_dataset = org_dataset
